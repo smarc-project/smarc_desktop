@@ -7,9 +7,9 @@ jobs:
     strategy:
       matrix:
         env:
-          - {ROS_DISTRO: noetic, ROS_REPO: testing, UPSTREAM_WORKSPACE: 'smarc_desktop.rosinstall -smarc_desktop'}
-          - {ROS_DISTRO: noetic, ROS_REPO: main, UPSTREAM_WORKSPACE: 'smarc_desktop.rosinstall -smarc_desktop'}
-          - {ROS_DISTRO: melodic, ROS_REPO: main, UPSTREAM_WORKSPACE: 'smarc_desktop.rosinstall -smarc_desktop'}
+          - {ROS_DISTRO: noetic, ROS_REPO: testing, UPSTREAM_WORKSPACE: 'smarc_desktop.rosinstall -smarc_desktop', ROSDEP_SKIP_KEYS: 'sdl2_image', ADDITIONAL_DEBS: 'libsdl2-image-dev'}
+          - {ROS_DISTRO: noetic, ROS_REPO: main, UPSTREAM_WORKSPACE: 'smarc_desktop.rosinstall -smarc_desktop', ROSDEP_SKIP_KEYS: 'sdl2_image', ADDITIONAL_DEBS: 'libsdl2-image-dev'}
+          - {ROS_DISTRO: melodic, ROS_REPO: main, UPSTREAM_WORKSPACE: 'smarc_desktop.rosinstall -smarc_desktop', ROSDEP_SKIP_KEYS: 'sdl2_image', ADDITIONAL_DEBS: 'libsdl2-image-dev'}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
