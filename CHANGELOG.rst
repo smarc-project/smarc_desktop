@@ -2,8 +2,8 @@
 Changelog for package smarc_desktop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.5 (2022-03-15)
+------------------
 * Update package.xml
 * Update package.xml
 * Update package.xml
