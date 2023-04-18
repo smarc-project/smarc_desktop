@@ -16,7 +16,7 @@
 - git: {local-name: sam_webgui, uri: 'https://github.com/smarc-project/sam_webgui.git', version: master}
 - git: {local-name: stonefish_ros, uri: 'https://github.com/smarc-project/stonefish_ros.git', version: noetic-devel}
 - git: {local-name: smarc_stonefish_sims, uri: 'https://github.com/smarc-project/smarc_stonefish_sims.git', version: noetic-devel}
-- git: {local-name: roswasm_suite_native, uri: 'https://github.com/smarc-project-native-gui/roswasm_suite_native.git', version: master}
-- git: {local-name: lolo_webgui_native, uri: 'https://github.com/smarc-project-native-gui/lolo_webgui_native.git', version: master}
-- git: {local-name: sam_webgui_native, uri: 'https://github.com/smarc-project-native-gui/sam_webgui_native.git', version: master}
+- git: {local-name: roswasm_suite_native, uri: 'https://github.com/smarc-project/roswasm_suite_native.git', version: master}
+- git: {local-name: lolo_webgui_native, uri: 'https://github.com/smarc-project/lolo_webgui_native.git', version: master}
+- git: {local-name: sam_webgui_native, uri: 'https://github.com/smarc-project/sam_webgui_native.git', version: master}
 - git: {local-name: uavcan_ros_bridge, uri: 'https://github.com/smarc-project/uavcan_ros_bridge.git', version: noetic-devel}
